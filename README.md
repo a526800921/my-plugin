@@ -15,4 +15,4 @@
 在兴趣的驱动下,写一个`免费`的东西，有欣喜，也还有汗水，希望你喜欢我的作品，同时也能支持一下。
 当然，有钱捧个钱场，没钱捧个人场，谢谢各位。
 
-![支付宝二维码](https://github.com/a526800921/my-plugin/blob/master/image/Jafish.jpg) {:height="300px" width="397px"}
+![支付宝二维码](https://github.com/a526800921/my-plugin/blob/master/image/Jafish.jpg) {height="300px" width="397px"}
