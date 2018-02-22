@@ -2,7 +2,7 @@
  * @Author: Jafish 
  * @Date: 2018-02-22 10:09:07 
  * @Last Modified by: Jafish
- * @Last Modified time: 2018-02-22 10:33:04
+ * @Last Modified time: 2018-02-22 14:19:19
  * @Action: 电话号码格式验证（11位）
  * @Param: [String, Number] phone  -->  传入要验证的电话号码
  * @Return: [Boolean] isPhone  -->  验证是否成功
@@ -10,7 +10,7 @@
 
 const isPhone = phone => {
    let isString = typeof phone
-   if (isString !== 'string' && isString !== 'number') return false
+   if (isString !== 'string' && isString !== 'number') throw new Error('phone expect is String or Number')
 
    let newPhone = +phone
    if (newPhone !== newPhone) return false // 得到的不是纯数字
