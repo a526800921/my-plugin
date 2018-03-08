@@ -2,14 +2,14 @@
  * @Author: Jafish 
  * @Date: 2018-01-26 13:47:16 
  * @Last Modified by: Jafish
- * @Last Modified time: 2018-02-22 10:19:20
+ * @Last Modified time: 2018-02-23 10:02:16
  * @Action: 模糊匹配
- * @param: [String] search    -->  要匹配的字符串
- * @param: [String] matchStr  -->  被匹配的字符串
- * @param: [Object] config    -->  可不传
- *                 [Boolean] openSearchFilter  -->  是否开启search非中文、英文、数字过滤，默认开启
- *                 [Boolean] openMatchStrFilter  -->  是否开启matchStr非中文、英文、数字过滤，默认开启
- * @Return: [Number] successCount  -->  匹配成功次数
+ * @param: {String} search - 要匹配的字符串
+ * @param: {String} matchStr - 被匹配的字符串
+ * @param: {Object} config - 可不传
+ *                  {Boolean} openSearchFilter - 是否开启search非中文、英文、数字过滤，默认开启
+ *                  {Boolean} openMatchStrFilter - 是否开启matchStr非中文、英文、数字过滤，默认开启
+ * @Return: {Number} successCount - 匹配成功次数
  */
 
 const fuzzyMatch = (search = '', matchStr = '', config = {}) => {
