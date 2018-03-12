@@ -6,4 +6,8 @@
 * isPhone.js       -> 手机号码匹配（11位），返回Boolean
 * numberFilter.js  -> 数字过滤，返回正整数（String）
 
+<<<<<<< HEAD
 2
+=======
+1
+>>>>>>> 0ae3fd1d3cc40342c1a0c0156d5dda3e7f580be2
