@@ -1,4 +1,4 @@
-# my-plugin
+﻿# my-plugin
 个人的插件库
 
 ## 插件列表
@@ -7,3 +7,4 @@
 * numberFilter.js  -> 数字过滤，返回正整数（String）
 
 1
+哒哒
